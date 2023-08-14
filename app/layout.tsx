@@ -12,11 +12,6 @@ import type { AppProps } from "@/types";
 import "../styles/globals.css";
 import { AnalyticsWrapper } from "./AnalyticsWrapper";
 
-// const jetbrainsMono = JetBrains_Mono({
-//   display: "auto",
-//   fallback: ["monospace"],
-  
-// });
 const roboto = Roboto({
   weight: '400',
   subsets: ['latin'],
