@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
 
-## Getting Started
+Este é o repositório do site do meu portfólio.
 
-First, run the development server:
+## 🚀 Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+portfolio demo](demo/devr-portfolio.jpg)
+
+## 🧐 Features
+
+- Barra de menus responsiva 📃
+- Cartões de Projeto
+- Seção de habilidades 🧑‍💻
+- Links sociais 🔗
+- Modo escuro 🌙 e claro 🪲
+
+## 🧑‍💻 Tech Stack
+
+- Next Js
+- React Js
+- Tailwind CSS
+- Hero Icons - for SVG icons
+- Zod - for creating schemas
+- React-Hook-Form - for doing form validation
+- React Hot Toast - for showing toast messages
+- Email Js - for sending emails
+
+> This template is free to use. You can customize this template and turn it into your own portfolio. Giving attribution to the author would be highly appreciated.
+
+## ⏩ Quick Start
+
+Make sure you have those dependencies:
+
+```json
+{
+  "node": ">=16.0.0",
+  "yarn": ">=1.22.0",
+  "npm": "please-use-yarn"
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then run those commands:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+git clone git@github.com:developeratul/devr-commerce.git
+cd devr-commerce
+yarn
+yarn lint
+cp .env.example .env.local # please change the credentials (create an account here: http://www.emailjs.com)
+yarn dev
+```
